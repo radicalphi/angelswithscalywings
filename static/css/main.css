@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #FFFFFF;
+  background-color: #000000;
+  font-size: 16px;
+}
+
+header.homepage {
+  background: linear-gradient(to bottom, rgba(41, 41, 41, 0.48) 0%, rgba(0, 0, 0, 0) 59%, rgb(0, 0, 0) 100%), url(../img/header_background.png) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+header p {
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+a, a:focus {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #0000008c;
+  text-align: left;
+}
+
+button.hamburger {
+  display: none;
+}
+
+.mobile-menu {
+  text-align: left;
+  background-color: #0000008c;
+}
+
+@media screen and (max-width: 768px)
+ {
+  button.hamburger {
+     display: inline-block;
+   }
+  nav.main-menu {
+   display: none;
+ }
+ nav.main-menu.is-active {
+   display: block;
+ }
+ 
+ nav.main-menu ul {
+   flex-direction: column;
+ }
+}
+
+
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  padding: 20px 10px;
+  flex: 1;
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+
+nav a, nav span {
+  color: white;
+  font-weight: 600;
+}
+
+nav span {
+  cursor: pointer;
+}
+
+ul.submenu ul {
+	opacity:0;
+	position:absolute;
+	visibility:hidden;
+  top:100%;
+	transition:all .4s ease;
+	-webkit-transition:all .4s ease;
+  display: flex;
+  flex-direction: column;
+  background: black;
+  border-radius: 10px;
+}
+
+ul.submenu li:hover > ul {
+	opacity:1;
+	visibility:visible;
+}
+
+nav a.active {
+  border-bottom: 3px solid white;
+}
+
+nav a:hover, nav span:hover {
+  text-decoration: none;
+  background: linear-gradient(0deg, rgba(222,239,255,1) 0%, rgba(149,182,253,1) 25%, rgba(149,158,238,1) 50%, rgba(190,151,201,1) 75%, rgba(235,163,185,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.reviews {
+  display: flex;
+  flex-flow: row;
+  margin: 5%;
+  flex-wrap: wrap;
+}
+
+.reviews div {
+  flex: 1;
+}
+
+.reviews p {
+  margin: 3%;
+  font-size: 16px;
+}
+
+.reviews a {
+  color: #728bc1;
+}
+
+.reviews a:hover {
+  text-decoration: none;
+  color: #a2aeca;
+}
+
+.fa-black {
+  color: #000000;
+}
+
+.icons {
+  font-size: 20px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.icons a, .icons a:active, .icons a:focus {
+  color: #000000;
+  outline: none;
+}
+
+.icons a:hover {
+  color: #2e509b;
+}
+
+.gamepedia-logo {
+  width: 2em;
+  height: 2em;
+  background: #ffffff;
+  border-radius: 100%;
+  background-image: url('../img/gamepedia_logo.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  font-size: 1.1em;
+}
+
+.gamepedia-logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.humble-content {
+  margin-top: 5%;
+}
+
+#deluxe-edition-content, #editions {
+  margin-top: 2%;
+}
+
+#logo {
+  width: 20%;
+}
+
+.videoContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+  border: 10px solid #000000;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.humble-widget {
+  margin-top: 3%;
+}
+
+.humble-widget-wrapper iframe {
+  width: 100%;
+}
+
+.humble-widget-wrapper-small iframe {
+  width: 60%;
+}
+
+.buy-now {
+  margin-top: 5%;
+}
+
+.buy-now a {
+  border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    color: #fff;
+    background: #2e509b;
+    border: 2px dashed #FFFFFF;
+    border-radius: 60px;
+}
+
+.buy-now a:hover {
+  background: #000000;
+  color: #226fbe;
+  text-decoration: none;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+    margin-bottom: 0;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.drm-text {
+  margin-top: 0.9em;
+  font-size: 14px;
+  color: #000000;
+  line-height: 14px;
+}
+
+section {
+  margin-top: 10%;
+}
+
+#story {
+  margin-top: 5%;
+}
+
+#available-now p {
+  font-size: 20px;
+}
+
+footer {
+  border-top: 2px solid #FFFFFF;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+@media screen and (max-width: 768px)
+ {
+  #logo {
+    width: 30%;
+  }
+  .videoContainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+  #deluxe-edition-content img {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .reviews {
+    flex-direction: column;
+  }
+
+  .reviews p {
+    margin: 5% 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 1199px) {
+  .humble-widget-wrapper iframe {
+    max-height: 210px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .humble-widget-wrapper-small iframe {
+    max-height: 210px;
+    width: 100%;
+  }
+}
+
+
+/* Comics page */
+
+.comics, .about-page, .archive {
+  background: linear-gradient(to bottom, rgba(41, 41, 41, 0.48) 0%, rgba(0, 0, 0, 0) 59%, rgb(0, 0, 0) 100%), url(../img/comics-background.png) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.comics-logo {
+  max-width: 600px;
+}
+
+.comics-logo-background {
+  background-image: url('../img/comics-logo-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.comics-post {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.comics-navigation {
+  background-color: #363a30;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+
+.comics-navigation span {
+  color: grey;
+}
+
+.comics-navigation a {
+  color: white;
+}
+
+/* About page */
+
+.about-content {
+  padding: 0 20%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px)
+ {
+  .about-content {
+     padding: 0 10%;
+   }
+}
+
+.about-content h1 {
+  color: #64af79;
+}
+
+.about-content img {
+  margin: 20px 0;
+}
+
+.about-content a {
+  color: white;
+  border-bottom: 1px solid;
+}
+
+.about-content a:hover {
+  text-decoration: none;
+}
+
+
+.about-content .hightlight::first-letter {
+  color: #64af79;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-content .patreon {
+  text-align: center;
+}
+
+.about-content .patreon iframe {
+  width: 180px;
+}
+
+/* Twiiter page */
+
+.twitter-page {
+  background: linear-gradient(to bottom, rgba(41, 41, 41, 0.48) 0%, rgba(0, 0, 0, 0) 59%, rgb(0, 0, 0) 100%), url(../img/page-background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.twitter-embeded {
+  width: 50%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px)
+ {
+  .twitter-embeded {
+     width: 80%;
+   }
+}
+
+.twitter-embeded a > i {
+  color: white;
+  font-size: 40px;
+}
+
+.archive-content {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.archive-content a {
+  color: white;
+  font-size: 30px;
+}
+
+/* Hamburguer Menu */
+
+.hamburger {
+  padding: 15px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible; }
+  .hamburger:hover {
+    opacity: 0.7; }
+    
+.hamburger:focus {
+  outline: none;
+}
+
+.hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  position: relative; }
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px; }
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 40px;
+    height: 4px;
+    background-color: #FFF;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+  .hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block; }
+  .hamburger-inner::before {
+    top: -10px; }
+  .hamburger-inner::after {
+    bottom: -10px; }
+    
+    .hamburger--elastic .hamburger-inner {
+  top: 2px;
+  transition-duration: 0.275s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .hamburger--elastic .hamburger-inner::before {
+    top: 10px;
+    transition: opacity 0.125s 0.275s ease; }
+  .hamburger--elastic .hamburger-inner::after {
+    top: 20px;
+    transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+.hamburger--elastic.is-active .hamburger-inner {
+  transform: translate3d(0, 10px, 0) rotate(135deg);
+  transition-delay: 0.075s; }
+  .hamburger--elastic.is-active .hamburger-inner::before {
+    transition-delay: 0s;
+    opacity: 0; }
+  .hamburger--elastic.is-active .hamburger-inner::after {
+    transform: translate3d(0, -20px, 0) rotate(-270deg);
+    transition-delay: 0.075s; }

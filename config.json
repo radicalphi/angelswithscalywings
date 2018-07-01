@@ -1,0 +1,31 @@
+{
+   "baseURL": "http://angelswithscalywings.com/",
+   "languageCode": "en-us",
+   "title": "Angels With Scaly Wings",
+   "sectionPagesMenu": "main",
+   "menu": {
+      "main": [
+         {
+           "identifier": "home",
+            "name": "Angels With Scaly Wings",
+            "title": "Angels With Scaly Wings",
+            "url": "//",
+            "weight": 1
+         },
+         {
+            "identifier": "comics",
+            "name": "Angels with Broken Hearts",
+            "title": "Angels with Broken Hearts",
+            "url": "/comics/",
+            "weight": 2
+         },
+         {
+            "identifier": "news",
+            "name": "News",
+            "title": "news",
+            "url": "/news/",
+            "weight": 3
+         }
+      ]
+   }
+}

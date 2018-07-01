@@ -1,0 +1,39 @@
+
+{{ define "main" }}
+<main class="comics">
+  <header>
+    {{ partial "header/site-nav.html" . }}
+    <div class="comics-logo-background">
+      <img class="comics-logo" src="../img/comics-logo.png" />
+    </div>
+    <nav>
+      <ul class="submenu">
+        <li><a href="/comics/about">About</a></li>
+        <li><span>Comics</span>
+          <ul>
+            {{ range first 5 (where .Data.Pages "Type" "eq" "comics") }}
+                <li><a href="{{ .URL }}">{{.Title}}</a></li>
+            {{ end }}
+            <li><a href="/comics/archive">More?</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="comics-post">
+    {{ range first 1 (where .Data.Pages "Type" "eq" "comics") }}
+        {{.Content}}
+    {{ end }}
+  </div>
+  <div class="comics-navigation">
+    <a href="/comics/1"><< First</a>
+    {{range $index, $element := (where .Data.Pages "Type" "eq" "comics") }}
+      {{if eq $index 1}}
+         <a href="{{ $element.URL }}">< Previous</a>   
+      {{end}}
+    {{ end }}
+    <span>Next ></span>
+    <span>Latest >></span>
+  </div>
+</main>
+{{ end }}

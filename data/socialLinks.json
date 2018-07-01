@@ -1,0 +1,24 @@
+{
+  "items": [
+        {
+            "name": "facebook",
+            "link": "https://facebook.com/angelswithscalywing"
+        },
+        {
+          "name": "twitter",
+          "link": "https://twitter.com/scalywings"
+        },
+        {
+          "name": "youtube",
+          "link": "https://www.youtube.com/channel/UC_gdGb6Eyqb8qA2F6uWASnA"
+        },
+        {
+          "name": "tumblr",
+          "link": "https://angelswithscalywings.tumblr.com"
+        },
+        {
+          "name": "gamepedia",
+          "link": "https://angelswithscalywings.gamepedia.com"
+        }
+    ]
+}
