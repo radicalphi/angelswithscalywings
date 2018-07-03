@@ -18,6 +18,8 @@ New pages will be released for free on our website, but supporting us on Patreon
 - Access to our exclusive discord community.
 - Discount on cameo slot auctions equal to your total patronage so far (or since your last cameo slot win).
 
+Similar to Angels with Scaly Wings, there are events that must be witnessed before other stories can be progressed. Seeing certain chapters will unlock others for voting and possible release - and YOU and other patrons get to determine where the story continues.
+
 [![Patreon](/img/patreon-banner.jpg)](https://www.patreon.com/mbsaunders)
 
 Patreon is a site that lets creators make campaigns where "patrons" can pledge a monthly amount to support the creator in exchange for variety of perks. This model is similar to crowdfunding, but more suited to ongoing projects such as webcomics.
@@ -50,8 +52,6 @@ Drawn by Aeghite, an artist who contributed CGs to Angels with Scaly Wings such 
 <p class="hightlight">In the human world, Reza is rescued and taken in by members of a settlement deep in Nevada's desolate plains. As he adjusts to his new life, this setting depicts the settlement's struggle for survival and the events directly leading up to the beginning of Angels with Scaly Wings.</p>
 
 Drawn by Peter Cacho, a professional comic book artist who currently resides in the Philippines.
-
-Similar to Angels with Scaly Wings, there are events that must be witnessed before other stories can be progressed. Seeing certain chapters will unlock others for voting and possible release - and YOU and other patrons get to determine where the story continues.
 
 ---
 
