@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://angelswithscalywings.com/comics/archive/</loc>
-    <lastmod>2018-07-01T18:24:07+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://angelswithscalywings.com/comics/3/</loc>
     <lastmod>2018-07-01T10:02:25+00:00</lastmod>
   </url>
@@ -35,6 +30,11 @@
   <url>
     <loc>http://angelswithscalywings.com/news/</loc>
     <lastmod>2018-06-27T21:31:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://angelswithscalywings.com/comics/archive/</loc>
+    <lastmod>2018-06-26T17:24:07+00:00</lastmod>
   </url>
   
   <url>
