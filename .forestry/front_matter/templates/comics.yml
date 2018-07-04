@@ -22,3 +22,5 @@ fields:
   label: Setting
 - type: text
   name: Chapter
+pages:
+- content/comics/3.md
