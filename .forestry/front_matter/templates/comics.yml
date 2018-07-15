@@ -1,4 +1,5 @@
 ---
+label: Comics
 hide_body: false
 is_partial: false
 fields:
@@ -23,6 +24,7 @@ fields:
 - type: text
   name: Chapter
 pages:
+- content/comics/4.md
 - content/comics/3.md
 - content/comics/2.md
 - content/comics/1.md
