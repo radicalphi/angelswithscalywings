@@ -24,6 +24,7 @@ fields:
 - type: text
   name: Chapter
 pages:
+- content/comics/11.md
 - content/comics/10.md
 - content/comics/9.md
 - content/comics/8.md
