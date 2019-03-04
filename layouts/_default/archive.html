@@ -21,8 +21,20 @@
     </nav>
   </header>
   <div class="archive-content">
-    {{ range (where .Site.Pages "Type" "eq" "comics") }}
-        <a href="{{ .URL }}">Comic #{{.Title}}</a>
+    {{ range .Site.Pages.Reverse.GroupByParam "Setting" }}
+      <div>
+        <h2 class="archive-setting"><u>Setting {{ .Key }}</u></h2>  
+        {{ range .Pages.GroupByParam "Chapter" }}
+        <div>
+          <h3 class="archive-chapter"><u>Chapter {{ .Key }}</u></h3>
+            <ul class="chapter-list">
+              {{ range .Pages }}
+              <li class="archive-item"><a href="{{ .Permalink }}">Page #{{ .Title }}</a></li>
+              {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+      </div>
     {{ end }}
   </div>
 </main>
