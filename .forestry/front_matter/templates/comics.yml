@@ -23,6 +23,8 @@ fields:
 - type: number
   name: Chapter
 pages:
+- content/comics/70.md
+- content/comics/71.md
 - content/comics/72.md
 - content/comics/43.md
 - content/comics/39.md
@@ -33,8 +35,6 @@ pages:
 - content/comics/65.md
 - content/comics/50-61.md
 - content/comics/49.md
-- content/comics/71.md
-- content/comics/70.md
 - content/comics/62.md
 - content/comics/63.md
 - content/comics/42.md
