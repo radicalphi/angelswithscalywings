@@ -2,7 +2,7 @@
 label: Comics
 hide_body: false
 fields:
-- name: title
+- name: number
   label: Title
   type: text
   hidden: false
@@ -20,7 +20,7 @@ fields:
 - type: text
   name: setting
   label: Setting
-- type: text
+- type: number
   name: Chapter
 pages:
 - content/comics/72.md
