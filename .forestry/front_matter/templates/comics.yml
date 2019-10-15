@@ -2,7 +2,7 @@
 label: Comics
 hide_body: false
 fields:
-- name: number
+- name: title
   label: Title
   type: text
   hidden: false
