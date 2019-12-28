@@ -51,8 +51,6 @@ Drawn by Aeghite, an artist who contributed CGs to Angels with Scaly Wings such 
 
 <p class="hightlight">In the human world, Reza is rescued and taken in by members of a settlement deep in Nevada's desolate plains. As he adjusts to his new life, this setting depicts the settlement's struggle for survival and the events directly leading up to the beginning of Angels with Scaly Wings.</p>
 
-Drawn by Peter Cacho, a professional comic book artist who currently resides in the Philippines.
-
 ---
 
 # FAQ
