@@ -1,5 +1,5 @@
 {
-   "baseURL": "http://angelswithscalywings.com/",
+   "baseURL": "https://angelswithscalywings.com/",
    "languageCode": "en-us",
    "title": "Angels With Scaly Wings",
    "sectionPagesMenu": "main",
@@ -20,11 +20,18 @@
             "weight": 2
          },
          {
+            "identifier": "merchandise",
+            "name": "Merchandise",
+            "title": "merchandise",
+            "url": "/merchandise/",
+            "weight": 3
+         },
+         {
             "identifier": "news",
             "name": "News",
             "title": "news",
             "url": "/news/",
-            "weight": 3
+            "weight": 4
          }
       ]
    }
