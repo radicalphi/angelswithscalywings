@@ -12,5 +12,8 @@
 		<li><a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a></li>
 		{{ end }}
 		<li><a href="https://angelswithscalywings.gamepedia.com" target="_blank">Wiki</a></li>
+		{{ if $.Translations }}
+		<li>{{ partial "allLanguages.html" . }}</li>
+		{{ end }}
 	</ul>
 </nav>

@@ -1,0 +1,14 @@
+<ul class="language-selector-container">
+    {{ range .Site.Languages }}
+    {{ if eq . $.Site.Language }}
+    <li class="language-select-wrapper">
+        <span id="language-select">{{ .LanguageName }} <i class="fa fa-caret-down"></i></span>
+      {{ end }}
+      {{ end }}
+      <ul id="dropdown-menu">
+        {{ range $.Translations }}
+        <li><a title="{{ .Language.LanguageName }}" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+      </ul>
+        {{ end }}
+    </li>
+  </ul>

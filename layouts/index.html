@@ -2,14 +2,14 @@
     <main aria-role="main">
       <header class="homepage">
         {{ partial "header/site-nav.html" . }}
-          <img id="logo" src="img/logo.png" />
+          <img id="logo" src={{ i18n "logo" }} />
 
             <div class="videoContainer">
               <div class="videoWrapper">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/FwCG3lqcb7o" frameborder="0" allowfullscreen="1"></iframe>
+                <iframe width="640" height="360" src={{ i18n "youtube" }} frameborder="0" allowfullscreen="1"></iframe>
               </div>
               <p>
-                Angels with Scaly Wings is a unique sci-fi visual novel with slice of life and dating sim elements for Windows, Mac OS and Linux set in a world populated by dragons.
+                {{ i18n "intro" }}
               </p>
             </div>
             <div class="icons">
@@ -29,24 +29,26 @@
                 {{ end }}
               {{ end }}
             </div>
-            <div class="reviews">
-              <div>
-                <p><em>“But let me be honest…this game blew me away.”</em></p>
-                <small>8/10 - <a href="http://gamecola.net/2017/02/angels-with-scaly-wings-pc/">GameCola</a></small>
-              </div>
-              <div>
-                <p><em>“The selling point of this game is to bone/get boned by a dragon.”</em></p>
-                <small>7.5/10 - <a href="https://techraptor.net/content/angels-with-scaly-wings-review">TechRaptor</a></small>
-              </div>
-              <div>
-                <p><em>“If you're not put off by reading, this game is definitely worth your time.”</em></p>
-                <small>8.3/10 - <a href="http://thegww.com/scaly-wings-review/">Geeks WorldWide</a></small>
-              </div>
+            {{ if ne .Site.Language.Lang "ja-jp" }}
+              <div class="reviews">
+                <div>
+                  <p><em>“But let me be honest…this game blew me away.”</em></p>
+                  <small>8/10 - <a href="http://gamecola.net/2017/02/angels-with-scaly-wings-pc/">GameCola</a></small>
+                </div>
+                <div>
+                  <p><em>“The selling point of this game is to bone/get boned by a dragon.”</em></p>
+                  <small>7.5/10 - <a href="https://techraptor.net/content/angels-with-scaly-wings-review">TechRaptor</a></small>
+                </div>
+                <div>
+                  <p><em>“If you're not put off by reading, this game is definitely worth your time.”</em></p>
+                  <small>8.3/10 - <a href="http://thegww.com/scaly-wings-review/">Geeks WorldWide</a></small>
+                </div>
 
-            </div>
+              </div>
+            {{ end }}
             <div class="buy-now">
 
-              <a href="#standard-edition">Buy Now</a>
+              <a href="#standard-edition">{{ i18n "buyNow" }}</a>
 
             </div>
 
@@ -54,14 +56,12 @@
       <div class="container">
 
       <section id="story">
-
+        <h2 class="section-heading">{{ i18n "storyTitle" }}</h2>
         <div class="row">
-          <img src="img/story.png" />
           <div class="col-md-6 ">
 
             <p>
-              After the discovery of a mysterious portal, you are selected as one of the few humans to travel to the world of dragons. While you serve as an ambassador, you learn more about this strangely familiar place, and discover that your human colleague knows more than he’s letting on…
-        It will be up to you and the friends you make to uncover the conspiracy that threatens the newly discovered world - and in the process, you may even find love.
+              {{ i18n "story" }}
             </p>
           </div>
           <div class="col-md-6">
@@ -84,37 +84,37 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="img/screenshots/1.png" alt=""/>
+                    <img src={{ i18n "screenshot01" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/2.jpg" alt=""/>
+                    <img src={{ i18n "screenshot02" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/3.png" alt=""/>
+                    <img src={{ i18n "screenshot03" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/4.png" alt=""/>
+                    <img src={{ i18n "screenshot04" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/5.png" alt=""/>
+                    <img src={{ i18n "screenshot05" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/6.png" alt=""/>
+                    <img src={{ i18n "screenshot06" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/7.png" alt=""/>
+                    <img src={{ i18n "screenshot07" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/8.png" alt=""/>
+                    <img src={{ i18n "screenshot08" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/9.png" alt=""/>
+                    <img src={{ i18n "screenshot09" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/10.png" alt=""/>
+                    <img src={{ i18n "screenshot10" }} alt=""/>
                 </div>
                 <div class="item">
-                    <img src="img/screenshots/11.png" alt=""/>
+                    <img src={{ i18n "screenshot11" }} alt=""/>
                 </div>
             </div>
 
@@ -134,10 +134,8 @@
       </section>
 
       <section id="features">
-
+       <h2 class="section-heading">{{ i18n "featuresTitle" }}</h2> 
       <div class="row">
-
-      <img src="img/features.png" />
 
         <div class="col-md-6">
           <div id="carousel-profiles" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -152,16 +150,16 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
               <div class="item active">
-                  <img src="img/profiles/adine.jpg" alt=""/>
+                  <img src={{ i18n "adine" }} alt=""/>
               </div>
               <div class="item">
-                  <img src="img/profiles/anna.jpg" alt=""/>
+                  <img src={{ i18n "anna" }} alt=""/>
               </div>
               <div class="item">
-                  <img src="img/profiles/bryce.jpg" alt=""/>
+                  <img src={{ i18n "bryce" }} alt=""/>
               </div>
               <div class="item">
-                  <img src="img/profiles/remy.jpg" alt=""/>
+                  <img src={{ i18n "remy" }} alt=""/>
               </div>
           </div>
 
@@ -179,23 +177,23 @@
         <div class="col-md-6">
 
           <p>
-            <h3>Epic storyline</h3>
-                  <p>With a script of over 175.000 words, our mindbending story will lead you through a number of dramatic twists and turns.</p>
-            <h3>Hang out with the locals</h3>
+            <h3>{{ i18n "epicStorylineTitle" }}</h3>
+                  <p>{{ i18n "epicStoryline" }}</p>
+            <h3>{{ i18n "hangOutTitle" }}</h3>
             <p>
-              Meet with a variety of dragons on 5 main and 5 secondary character routes. Listen to their stories and learn about their hopes, dreams and problems.
+              {{ i18n "hangOut" }}
             </p>
-            <h3>The choice is yours</h3>
+            <h3>{{ i18n "choiceYoursTitle" }}</h3>
             <p>
-              Make deep, impactful decisions that can affect the game world permanently and lead you to more than 13 different endings.
+              {{ i18n "choiceYours" }}
             </p>
-            <h3>A town full of secrets</h3>
+            <h3>{{ i18n "townSecretTitle" }}</h3>
             <p>
-              Investigate a number of mysteries during free time sections. Manage your time wisely and be careful who you meet with, as each encounter may bring forth unintended consequences.
+              {{ i18n "townSecret" }}
             </p>
-            <h3>Unlockable gallery</h3>
+            <h3>{{ i18n "unlockableGalleryTitle" }}</h3>
             <p>
-              Find exclusive images of the main cast.
+             {{ i18n "unlockableGallery" }}
             </p>
         </div>
       </div>
@@ -204,13 +202,13 @@
 
       <section id="available-now">
         <p>
-          Available now on these platforms in Standard and Digital Deluxe Editions
+          {{ i18n "availableNow" }}
         </p>
 
         <div class="icons">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
-              <strong class="fa-stack-1x drm-text">DRM<br />FREE</strong>
+              <strong class="fa-stack-1x drm-text">DRM<br />{{ i18n "free" }}</strong>
             </span>
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
@@ -239,15 +237,18 @@
         <div class="row">
           <div class="col-md-6">
             <div id="standard-edition" class="humble-content">
-              <h3>STANDARD EDITION</h3>
+              <h3>{{ i18n "standardEdition" }}</h3>
               <div class="humble-widget-wrapper">
                 <iframe src="https://www.humblebundle.com/widget/v2/product/awsw_standard/75v2Hgs9HH?theme=dark" width="526" height="329" style="border: none;" scrolling="no" frameborder="0"></iframe>
+                {{ if ne .Site.Language.Lang "en" }}
+                <iframe src="https://store.steampowered.com/widget/571880/?l=japanese" frameborder="0" width="646" height="190"></iframe>
+                {{ end }}
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div id="deluxe-edition" class="humble-content">
-              <h3>DIGITAL DELUXE EDITION</h3>
+              <h3>{{ i18n "digitalDeluxeEdition" }}</h3>
                 <div class="humble-widget-wrapper">
                   <iframe src="https://www.humblebundle.com/widget/v2/product/awsw_dde/EGbq6ydbL0?theme=dark" width="526" height="329" style="border: none;" scrolling="no" frameborder="0"></iframe>
                 </div>
@@ -262,49 +263,46 @@
 
 
         <p>
-          The extras you receive as part of the Digital Deluxe Edition include:
+          {{ i18n "extrasDigital" }}
         </p>
 
         <div class="row">
           <div class="col-md-3">
-            <img src="img/deluxeedition/item1.png" />
-            <h3>Soundtrack</h3>
+            <img src="/img/deluxeedition/item1.png" />
+            <h3>{{ i18n "soundtrack" }}</h3>
+            <p> {{ i18n "soundtrackInfo" }} </p>
+          </div>
+          <div class="col-md-3">
+            <img src={{ i18n "makingOfCover" }} />
+            <h3>{{ i18n "makingOf" }}</h3>
             <p>
-      The complete game soundtrack with over 90 tracks and a total running time of over 4 hours!
+              {{ i18n "makingOfInfo" }}
             </p>
           </div>
           <div class="col-md-3">
-            <img src="img/deluxeedition/item2.png" />
-            <h3>"Finding Dragonland – The Making of 'Angels with Scaly Wings'“</h3>
-            <p>
-              Get a sneak peek into the game's two-year development!
-            </p>
+            <img src="/img/deluxeedition/item3.png" />
+            <h3>{{ i18n "artwork" }}</h3>
+            <p>{{ i18n "artworkInfo" }}</p>
           </div>
           <div class="col-md-3">
-            <img src="img/deluxeedition/item3.png" />
-            <h3>Artwork</h3>
-            <p>
-      A selection of gorgeous artwork and backgrounds from the game, suitable for use as wallpapers.        </p>
-          </div>
-          <div class="col-md-3">
-            <img src="img/deluxeedition/item4.png" />
-            <h3>Icons</h3>
-            <p>
-      A number of exclusive icons and avatars to deck out your social media!        </p>
+            <img src="/img/deluxeedition/item4.png" />
+            <h3>{{ i18n "icons" }}</h3>
+            <p>{{ i18n "iconsInfo" }}</p>
           </div>
         </div>
 
       <div class="humble-widget row">
       <div class="col-md-12">
         <div class="humble-widget-wrapper-small">
-          <h3>UPGRADE NOW</h3>
+          <h3>{{ i18n "upgradeNow" }}</h3>
           <iframe src="https://www.humblebundle.com/widget/v2/product/awsw_upgrade/gL2y4kecqA?theme=dark" width="60%" height="329" style="border: none;" scrolling="no" frameborder="0"></iframe>
+          {{ if ne .Site.Language.Lang "en" }}
+          <iframe src="https://store.steampowered.com/widget/573290/?l=japanese" frameborder="0" width="646" height="190"></iframe>
+          {{ end }}
+
         </div>
       </div>
       </div>
 
-
-      </section>
-      </div>
     </main>
 {{ end }}

@@ -23,3 +23,11 @@ hamburger.addEventListener("click", function() {
   mainMenu.classList.toggle("is-active");
   // Do something else, like open/close menu
 });
+
+var languageSelector = document.getElementById("language-select");
+var languageDropdown = document.getElementById("dropdown-menu");
+
+languageSelector.addEventListener("click", function() {
+  languageDropdown.classList.toggle("active");
+  languageSelector.classList.toggle("active");
+});

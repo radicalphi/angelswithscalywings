@@ -1,0 +1,140 @@
+[logo]
+other = "/img/logo.png"
+
+[youtube]
+other = "https://www.youtube.com/embed/FwCG3lqcb7o"
+
+[intro]
+other = "Angels with Scaly Wings is a unique sci-fi visual novel with slice of life and dating sim elements for Windows, Mac OS and Linux set in a world populated by dragons."
+
+[buyNow]
+other = "Buy now"
+
+[storyTitle]
+other = "Story"
+
+[story]
+other = "After the discovery of a mysterious portal, you are selected as one of the few humans to travel to the world of dragons. While you serve as an ambassador, you learn more about this strangely familiar place, and discover that your human colleague knows more than he’s letting on… It will be up to you and the friends you make to uncover the conspiracy that threatens the newly discovered world - and in the process, you may even find love."
+
+[screenshot01]
+other = "/img/screenshots/1.png"
+
+[screenshot02]
+other = "/img/screenshots/2.jpg"
+
+[screenshot03]
+other = "/img/screenshots/3.png"
+
+[screenshot04]
+other = "/img/screenshots/4.png"
+
+[screenshot05]
+other = "/img/screenshots/5.png"
+
+[screenshot06]
+other = "/img/screenshots/6.png"
+
+[screenshot07]
+other = "/img/screenshots/7.png"
+
+[screenshot08]
+other = "/img/screenshots/8.png"
+
+[screenshot09]
+other = "/img/screenshots/9.png"
+
+[screenshot10]
+other = "/img/screenshots/10.png"
+
+[screenshot11]
+other = "/img/screenshots/11.png"
+
+[featuresTitle]
+other = "Features"
+
+[adine]
+other = "/img/profiles/adine.jpg"
+
+[anna]
+other = "/img/profiles/anna.jpg"
+
+[bryce]
+other = "/img/profiles/bryce.jpg"
+
+[remy]
+other = "/img/profiles/remy.jpg"
+
+[epicStorylineTitle]
+other = "Epic storyline"
+
+[epicStoryline]
+other = "With a script of over 175.000 words, our mindbending story will lead you through a number of dramatic twists and turns."
+
+[hangOutTitle]
+other = "Hang out with the locals"
+
+[hangOut]
+other = "Meet with a variety of dragons on 5 main and 5 secondary character routes. Listen to their stories and learn about their hopes, dreams and problems. "
+
+[choiceYoursTitle]
+other = "The choice is yours"
+
+[choiceYours]
+other = "Make deep, impactful decisions that can affect the game world permanently and lead you to more than 13 different endings."
+
+[townSecretTitle]
+other = "A town full of secrets"
+
+[townSecret]
+other = "Investigate a number of mysteries during free time sections. Manage your time wisely and be careful who you meet with, as each encounter may bring forth unintended consequences. "
+
+[unlockableGalleryTitle]
+other = "Unlockable gallery"
+
+[unlockableGallery]
+other = "Find exclusive images of the main cast. "
+
+[availableNow]
+other = "Available now on these platforms in Standard and Digital Deluxe Editions"
+
+[free]
+other = "Free"
+
+[standardEdition]
+other = "STANDARD EDITION"
+
+[digitalDeluxeEdition]
+other = "DIGITAL DELUXE EDITION"
+
+[extrasDigital]
+other = "The extras you receive as part of the Digital Deluxe Edition include: "
+
+[soundtrack]
+other = "Soundtrack"
+
+[soundtrackInfo]
+other = "The complete game soundtrack with over 90 tracks and a total running time of over 4 hours!"
+
+[makingOfCover]
+other = "/img/deluxeedition/item2.png"
+
+[makingOf]
+other = "\"Finding Dragonland – The Making of 'Angels with Scaly Wings'\""
+
+[makingOfInfo]
+other = "Get a sneak peek into the game's two-year development!"
+
+[artwork]
+other = "Artwork"
+
+[artworkInfo]
+other = "A selection of gorgeous artwork and backgrounds from the game, suitable for use as wallpapers."
+
+[icons]
+other = "Icons"
+
+[iconsInfo]
+other = "A number of exclusive icons and avatars to deck out your social media!"
+
+[upgradeNow]
+other = "UPGRADE NOW"
