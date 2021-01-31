@@ -85,6 +85,7 @@ nav li {
   position: relative;
   justify-content: center;
   display: flex;
+  align-items: center;
 }
 
 nav a, nav span {
@@ -317,48 +318,7 @@ footer {
   padding-bottom: 5%;
 }
 
-@media screen and (max-width: 768px)
- {
-  #logo {
-    width: 30%;
-  }
-  .videoContainer {
-    width: 90%;
-    margin: 0 auto;
-  }
 
-
-
-}
-
-@media screen and (max-width: 991px) {
-  #deluxe-edition-content img {
-    max-width: 50%;
-    margin: 0 auto;
-  }
-
-  .reviews {
-    flex-direction: column;
-  }
-
-  .reviews p {
-    margin: 5% 0 10px;
-  }
-
-}
-
-@media screen and (max-width: 1199px) {
-  .humble-widget-wrapper iframe {
-    max-height: 210px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .humble-widget-wrapper-small iframe {
-    max-height: 210px;
-    width: 100%;
-  }
-}
 
 
 /* Comics page */
@@ -610,3 +570,97 @@ footer {
   .hamburger--elastic.is-active .hamburger-inner::after {
     transform: translate3d(0, -20px, 0) rotate(-270deg);
     transition-delay: 0.075s; }
+
+.language-selector-container {
+  list-style: none;
+  width: 146px;
+  position: relative;
+  cursor: pointer;
+  background-color: #654f7b;
+  padding: 5px 20px;
+}
+
+.language-select-wrapper, #dropdown-menu li {
+  padding: 0;
+}
+
+#language-select.active > .fa-caret-down {
+  transform: scaleY(-1);
+}
+
+#dropdown-menu {
+  position: absolute;
+  top: 30px;
+  left: -20px;
+  width: 146px;
+  visibility: hidden;
+  opacity: 0;
+  list-style: none;
+  background-color: #654f7b;
+  padding: 5px 20px;
+  transition: all 0.2s ease-in;
+}
+
+#dropdown-menu.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  font-size: 7em;
+  color: #2e509b;
+  border-bottom: 4px solid white;
+  width: max-content;
+  margin: 0 auto 40px;
+  -webkit-text-stroke: 4px white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px)
+ {
+  #logo {
+    width: 30%;
+  }
+  .videoContainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+
+
+}
+
+@media screen and (max-width: 991px) {
+  #deluxe-edition-content img {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .reviews {
+    flex-direction: column;
+  }
+
+  .reviews p {
+    margin: 5% 0 10px;
+  }
+
+  .section-heading {
+    font-size: 4em;
+  -webkit-text-stroke: 2px white;
+  }
+
+}
+
+@media screen and (max-width: 1199px) {
+  .humble-widget-wrapper iframe {
+    max-height: 210px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .humble-widget-wrapper-small iframe {
+    max-height: 210px;
+    width: 100%;
+  }
+}
