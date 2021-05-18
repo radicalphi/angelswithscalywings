@@ -18,7 +18,7 @@
                   <a href="{{ .link }}" target="_blank" title="{{ .name }}">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
-                      <i class="fa fa-{{ .name }} fa-stack-1x" aria-hidden="true"></i>
+                      <i class="fab fa-{{ .name }} fa-stack-1x" aria-hidden="true"></i>
                     </span>
                   </a> 
                 {{else}}
@@ -212,21 +212,43 @@
             </span>
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
-              <i class="fa fa-black fa-steam fa-stack-1x" aria-hidden="true"></i>
+              <i class="fab fa-black fa-steam fa-stack-1x" aria-hidden="true"></i>
             </span>
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
-              <i class="fa fa-black fa-windows fa-stack-1x" aria-hidden="true"></i>
+              <i class="fab fa-black fa-windows fa-stack-1x" aria-hidden="true"></i>
             </span>
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
-              <i class="fa fa-black fa-apple fa-stack-1x" aria-hidden="true"></i>
+              <i class="fab fa-black fa-apple fa-stack-1x" aria-hidden="true"></i>
             </span>
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
-              <i class="fa fa-black fa-linux fa-stack-1x" aria-hidden="true"></i>
+              <i class="fab fa-black fa-linux fa-stack-1x" aria-hidden="true"></i>
             </span>
+            {{ if ne .Site.Language.Lang "ja-jp" }}
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
+              <i class="fab fa-black fa-playstation fa-stack-1x" aria-hidden="true"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
+              <i class="fab fa-black fa-xbox fa-stack-1x" aria-hidden="true"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x fa-inverse" aria-hidden="true"></i>
+              <i class="fa-black nintendo-switch-icon fa-stack-1x" aria-hidden="true"></i>
+            </span>
+            {{ end }}
         </div>
+
+        
+          {{ if ne .Site.Language.Lang "ja-jp" }}
+          <p class="console-info">
+            Console versions are available from the respective console's digital shop.
+          </p>
+          {{ end }}
+        
 
 
 
