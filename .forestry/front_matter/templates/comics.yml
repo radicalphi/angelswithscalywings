@@ -11,7 +11,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: ''
+  default: now
 - name: type
   label: Type
   type: text
@@ -22,6 +22,7 @@ fields:
   label: Setting
 - type: number
   name: Chapter
+  label: Chapter
 pages:
 - content/comics/1.md
 - content/comics/10.md
