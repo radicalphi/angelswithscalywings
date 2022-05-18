@@ -1,55 +1,35 @@
-{{ define "title" }} {{ .Title }} &ndash; {{ .Site.Title }} {{ end }} {{ define
-"main" }}
+
+{{ define "title" }}
+{{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
 <main class="twitter-page">
-  <header>
-    {{ partial "header/site-nav.html" . }}
-    <h1>Merchandise</h1>
-  </header>
-  <div>
-    A variety of Angels with Scaly Wings merchandise is now available!
+<header>
+{{ partial "header/site-nav.html" . }}
+<h1>Merchandise</h1>
+</header>
+<div>
+A variety of Angels with Scaly Wings merchandise is now available!
 
-    <div class="merchandise-items">
-      <a
-        class="merchandise-item"
-        href="https://store.pawprint.press/collections/angels-with-scaly-wings"
-        target="_blank"
-      >
-        <div>
-          <img
-            class="merchandise-img"
-            src="/img/merchandise/pawprint.png"
-            alt="Pawprint"
-          />
-          <p class="merchandise-text">Pawprint</p>
-        </div>
-      </a>
+<div class="merchandise-items">
+<a class="merchandise-item" href="https://store.pawprint.press/collections/angels-with-scaly-wings" target="_blank">
+<div>
+<img class="merchandise-img" src="/img/merchandise/pawprint.png" alt="Pawprint" />
+<p class="merchandise-text">Pawprint</p>
+</div>
+</a>
 
-      <a
-        class="merchandise-item"
-        href="https://redbubble.com/people/mbsaunders/portfolio"
-        target="_blank"
-      >
-        <img
-          class="merchandise-img"
-          src="/img/merchandise/redbubble.png"
-          alt="Redbubble"
-        />
-        <p class="merchandise-text">Redbubble</p>
-      </a>
+<a class="merchandise-item" href="https://redbubble.com/people/mbsaunders/portfolio" target="_blank">
+<img class="merchandise-img" src="/img/merchandise/redbubble.png" alt="Redbubble" />
+<p class="merchandise-text">Redbubble</p>
+</a>
 
-      <a
-        class="merchandise-item"
-        href="https://zazzle.com/store/mbsaunders"
-        target="_blank"
-      >
-        <img
-          class="merchandise-img"
-          src="/img/merchandise/zazzle.png"
-          alt="Redbubble"
-        />
-        <p class="merchandise-text">Zazzle</p>
-      </a>
-    </div>
-  </div>
+<a class="merchandise-item" href="https://zazzle.com/store/mbsaunders" target="_blank">
+<img class="merchandise-img" src="/img/merchandise/zazzle.png" alt="Redbubble" />
+<p class="merchandise-text">Zazzle</p>
+</a>
+
+</div>
+</div>
 </main>
 {{ end }}
