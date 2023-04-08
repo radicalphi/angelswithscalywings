@@ -12,7 +12,7 @@
         <li><span>Comics</span>
           <ul>
             {{ range first 5 (where .Site.Pages "Type" "comics") }}
-                <li><a href="{{ .URL }}">{{.Title}}</a></li>
+                <li><a href="{{ .Permalink }}">{{.Title}}</a></li>
             {{ end }}
             <li><a href="/comics/archive">More?</a></li>
           </ul>
@@ -24,18 +24,18 @@
         {{.Content}}
   </div>
   <div class="comics-navigation">
-    {{ if eq .URL "/comics/1/" }}
+    {{ if eq .Permalink "/comics/1/" }}
       <span><< First</span>
     {{ else }}
       <a href="/comics/1"><< First</a>
     {{ end }}
     {{ if and (.PrevInSection) (ne .PrevInSection.Title  "About") }}
-    <a href="{{ .PrevInSection.URL }}">< Previous</a>
+    <a href="{{ .PrevInSection.Permalink }}">< Previous</a>
     {{ else }}
     <span>< Previous</span>
     {{ end }}
     {{ if .NextInSection }}
-    <a href="{{ .NextInSection.URL }}">Next ></a>
+    <a href="{{ .NextInSection.Permalink }}">Next ></a>
     <a href="/comics">Latest >></a>
     {{ else }}
     <span>Next ></span>

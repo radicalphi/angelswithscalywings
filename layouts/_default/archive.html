@@ -12,7 +12,7 @@
         <li><span>Comics</span>
           <ul>
             {{ range first 5 (where .Site.Pages "Type" "comics") }}
-                <li><a href="{{ .URL }}">{{.Title}}</a></li>
+                <li><a href="{{ .Permalink }}">{{.Title}}</a></li>
             {{ end }}
             <li><a href="/comics/archive">More?</a></li>
           </ul>

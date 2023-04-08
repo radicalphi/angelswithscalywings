@@ -9,11 +9,14 @@ export function comicsFields() {
     {
       type: "datetime",
       name: "date",
+      required: true,
       label: "Date",
     },
     {
       type: "string",
       name: "type",
+      required: true,
+      options: ["comics"],
       label: "Type",
     },
     {

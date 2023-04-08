@@ -74,6 +74,13 @@ export default defineConfig({
             isBody: true,
           },
           ...comicsFields(),
+          {
+            name: 'draft',
+            label: 'Draft',
+            type: 'boolean',
+            required: true,
+            description: 'If this is checked the post will not be published',
+          },
         ],
       },
       {
