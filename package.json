@@ -1,0 +1,24 @@
+{
+  "name": "angelswithscalywings",
+  "version": "1.0.0",
+  "description": "Homepage for the Angels with Scaly Wings game :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrl112/angelswithscalywings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrl112/angelswithscalywings/issues"
+  },
+  "homepage": "https://github.com/mrl112/angelswithscalywings#readme",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.5",
+    "tinacms": "^1.4.5"
+  }
+}
