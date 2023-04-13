@@ -2,12 +2,13 @@ import { defineConfig } from "tinacms";
 import { comicsFields } from "./templates";
 
 // Your hosting provider likely exposes this as an environment variable
-const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
+const branch =
+  process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "master";
 
 export default defineConfig({
   branch,
-  clientId: null, // Get this from tina.io
-  token: null, // Get this from tina.io
+  clientId: process.env.TINA_PUBLIC_CLIENT_ID || null,
+  token: process.env.TINA_TOKEN || null,
   client: { skip: true },
   build: {
     outputFolder: "admin",
@@ -75,11 +76,11 @@ export default defineConfig({
           },
           ...comicsFields(),
           {
-            name: 'draft',
-            label: 'Draft',
-            type: 'boolean',
+            name: "draft",
+            label: "Draft",
+            type: "boolean",
             required: true,
-            description: 'If this is checked the post will not be published',
+            description: "If this is checked the post will not be published",
           },
         ],
       },
