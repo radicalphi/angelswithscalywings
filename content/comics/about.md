@@ -32,24 +32,19 @@ Your support will not only ensure the continuation of this project, but also hel
 
 ![7aho](/img/7aho-setting.png)
 
-
-<p class="hightlight">Every story has a beginning, and for Sebastian, this is where it all started - or at least where his career is concerned! This setting starts with Sebastian's first day in the police force and also features chapters about Zhong, Damion and Vara's family.</p>
+<p class="hightlight">Every story has a beginning, and for Sebastian, this is where it all started - or at least where his career is concerned! This setting starts with Sebastian's first day in the police force and also features chapters about Zhong, Damion and Vara's family.
 
 Drawn by 7aho, best known for creating the majority of the introductory CGs in Angels with Scaly Wings - including the CG of Adine in the rain.
 
-
 ![Aeghite](/img/Aeghite-setting.png)
 
-
-<p class="hightlight">Set several years before the events of Angels with Scaly Wings, this setting begins with Amelia and her friendship with Adine as well as her and Remy's relationship. Maverick also appears in this story, throwing Amelia's chapters into sharp contrast as he juggles his job, family and love life.</p>
+<p class="hightlight">Set several years before the events of Angels with Scaly Wings, this setting begins with Amelia and her friendship with Adine as well as her and Remy's relationship. Maverick also appears in this story, throwing Amelia's chapters into sharp contrast as he juggles his job, family and love life.
 
 Drawn by Aeghite, an artist who contributed CGs to Angels with Scaly Wings such as the dinner with Anna, meeting Zhong, and Remy's dessert mishap.
 
-
 ![Peter](/img/Peter-setting.jpg)
 
-
-<p class="hightlight">In the human world, Reza is rescued and taken in by members of a settlement deep in Nevada's desolate plains. As he adjusts to his new life, this setting depicts the settlement's struggle for survival and the events directly leading up to the beginning of Angels with Scaly Wings.</p>
+<p class="hightlight">In the human world, Reza is rescued and taken in by members of a settlement deep in Nevada's desolate plains. As he adjusts to his new life, this setting depicts the settlement's struggle for survival and the events directly leading up to the beginning of Angels with Scaly Wings.
 
 ---
 
@@ -72,19 +67,19 @@ Please keep in mind that when we say "minimum", we really mean that. This slower
 
 We are planning to release extra pages on top of the minimum when we can.
 
-## Can I read Angels with Broken Hearts without ever having played Angels with Scaly Wings? 
+## Can I read Angels with Broken Hearts without ever having played Angels with Scaly Wings?
 
-Angels with Broken Hearts was explicitly written as a prequel to Angels with Scaly Wings. 
+Angels with Broken Hearts was explicitly written as a prequel to Angels with Scaly Wings.
 
 You may still enjoy the stories without having played AwSW, but you are likely to enjoy them a lot more if you have already finished Angels with Scaly Wings.
 
-## Is my favorite AwSW main character going to be in this? 
+## Is my favorite AwSW main character going to be in this?
 
 All of the main AwSW characters will play a part, although Angels with Broken Hearts also greatly expands on characters that had a smaller role in Angels with Scaly Wings and gives them an opportunity to tell their stories.
 
-## How would you rate  AwBH's content?
+## How would you rate AwBH's content?
 
-Like Angels with Scaly Wings, Angels with Broken Hearts is intended for mature audiences. 
+Like Angels with Scaly Wings, Angels with Broken Hearts is intended for mature audiences.
 
 Without content restrictions of the platforms Angels with Scaly Wings was released on, we will be able to be a little more daring in regards to what content can be depicted in our work.
 
@@ -103,8 +98,6 @@ We're looking at it, but if we do, it'll be after everything is released digital
 ## What else can we do to show our support?
 
 Spread the word! Share our work with people who might be interested in it, or post about it on Facebook, Twitter or any other social network.
-
-
 
 Have any additional questions?
 Please don’t hesitate to contact us via our social media channels or email at any time!
@@ -127,4 +120,3 @@ timepatches, Renkka
 
 **Web Design:**
 Tatiana Bernardo (https://tatianabernardo.work)
-
