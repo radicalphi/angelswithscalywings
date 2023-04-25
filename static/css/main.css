@@ -380,6 +380,10 @@ footer {
   margin: 20px auto;
 }
 
+.comics-post p {
+  text-align: left;
+}
+
 .comics-navigation {
   background-color: #363a30;
   padding: 20px 0;
