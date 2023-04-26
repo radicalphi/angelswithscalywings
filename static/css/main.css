@@ -384,6 +384,14 @@ footer {
   text-align: left;
 }
 
+.comics-post p > img:first-of-type {
+  margin-bottom: 20px;
+}
+
+.comics-post a > img:last-of-type {
+  margin-top: 20px;
+}
+
 .comics-navigation {
   background-color: #363a30;
   padding: 20px 0;
