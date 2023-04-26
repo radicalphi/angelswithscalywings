@@ -384,11 +384,12 @@ footer {
   text-align: left;
 }
 
-.comics-post p > img:first-of-type {
-  margin-bottom: 20px;
+.comics-post p > img {
+  margin-bottom: 15px;
 }
 
-.comics-post a > img:last-of-type {
+.comics-post a > img {
+  margin-bottom: 0;
   margin-top: 20px;
 }
 
