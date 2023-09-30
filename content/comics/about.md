@@ -32,19 +32,28 @@ Your support will not only ensure the continuation of this project, but also hel
 
 ![7aho](/img/7aho-setting.png)
 
-<p class="hightlight">Every story has a beginning, and for Sebastian, this is where it all started - or at least where his career is concerned! This setting starts with Sebastian's first day in the police force and also features chapters about Zhong, Damion and Vara's family.
+{{< rawhtml >}}
+
+<p class="hightlight">Every story has a beginning, and for Sebastian, this is where it all started - or at least where his career is concerned! This setting starts with Sebastian's first day in the police force and also features chapters about Zhong, Damion and Vara's family.</p>
+{{< /rawhtml >}}
 
 Drawn by 7aho, best known for creating the majority of the introductory CGs in Angels with Scaly Wings - including the CG of Adine in the rain.
 
 ![Aeghite](/img/Aeghite-setting.png)
 
-<p class="hightlight">Set several years before the events of Angels with Scaly Wings, this setting begins with Amelia and her friendship with Adine as well as her and Remy's relationship. Maverick also appears in this story, throwing Amelia's chapters into sharp contrast as he juggles his job, family and love life.
+{{< rawhtml >}}
+
+<p class="hightlight">Set several years before the events of Angels with Scaly Wings, this setting begins with Amelia and her friendship with Adine as well as her and Remy's relationship. Maverick also appears in this story, throwing Amelia's chapters into sharp contrast as he juggles his job, family and love life.</p>
+{{< /rawhtml >}}
 
 Drawn by Aeghite, an artist who contributed CGs to Angels with Scaly Wings such as the dinner with Anna, meeting Zhong, and Remy's dessert mishap.
 
 ![Peter](/img/Peter-setting.jpg)
 
-<p class="hightlight">In the human world, Reza is rescued and taken in by members of a settlement deep in Nevada's desolate plains. As he adjusts to his new life, this setting depicts the settlement's struggle for survival and the events directly leading up to the beginning of Angels with Scaly Wings.
+{{< rawhtml >}}
+
+<p class="hightlight">In the human world, Reza is rescued and taken in by members of a settlement deep in Nevada's desolate plains. As he adjusts to his new life, this setting depicts the settlement's struggle for survival and the events directly leading up to the beginning of Angels with Scaly Wings.</p>
+{{< /rawhtml >}}
 
 ---
 
