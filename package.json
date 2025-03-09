@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/mrl112/angelswithscalywings#readme",
   "dependencies": {
-    "@tinacms/cli": "^1.5.5",
+    "@tinacms/cli": "^1.9.2",
     "tinacms": "^1.4.5"
   }
 }
